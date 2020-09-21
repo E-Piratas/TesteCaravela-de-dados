@@ -15,7 +15,7 @@ Recursos
 	* [Biblioteca Pubsub]()
 ---
 ## **ESP32**
-![Esp32Logo](https://images.app.goo.gl/UqowAnpFjLeg2fhV8)
+![Esp32Logo](https://pt.wikipedia.org/wiki/ESP32#/media/Ficheiro:Espressif_ESP-WROOM-32_Wi-Fi_&_Bluetooth_Module.jpg)
 Para o desenvolvimento dessa aplicação, foi utilizado uma placa de prototipagem ESP32 devkit V1. Essa placa possui um chip ESP-WROOM-32 produzido pela empresa espressif, que para nosso projeto apresenta uma característica muito importante que é a capacidade de se conectar a uma rede Wi-Fi, permitindo comunicar com um servidor utilizando MQTT.
 
 Essa placa permite adicionar diversos sensores, podendo receber sinais analogicos ou digitais em suas entradas. Além disso também possui a capacidade de gerar sinais de saída em seus pinos, permitindo assim diversas aplicações para essa placa.
