@@ -1,6 +1,8 @@
-# **Projeto de comunicação MQTT e IOT                    CARAVELA DE DADOS**
----
+
 ![E-Piratas-Logo](https://github.com/E-Piratas/Caravela-de-dados/blob/master/E-Piratas-Logo.png)
+---
+#  **CARAVELA DE DADOS**
+## **Projeto de comunicação MQTT e IOT**                   
 
 **Versão** **0.4**
 
@@ -16,6 +18,7 @@ Recursos
 	* [Biblioteca Pubsub]()
 ---
 ## **ESP32**
+
 ![Esp32Logo](https://github.com/E-Piratas/Caravela-de-dados/blob/master/Espressif_ESP32.jpg)
 
 Para o desenvolvimento dessa aplicação, foi utilizado uma placa de prototipagem ESP32 devkit V1. Essa placa possui um chip ESP-WROOM-32 produzido pela empresa espressif, que para nosso projeto apresenta uma característica muito importante que é a capacidade de se conectar a uma rede Wi-Fi, permitindo comunicar com um servidor utilizando MQTT.
@@ -27,6 +30,7 @@ Para mais informações acesse o site da fabricante do chip:
 https://www.espressif.com/en/products/socs/esp32
 
 ## **MQTT**
+
 A prioridade de nosso sistema é a aquisição de dados dos dispositivos ESP 32 através de comunicação TCP/IP, por esse motivos usamos o protocolo MQTT.
 Esse protocolo tem como características ser leve e para pequenos dispositivos sendo assim ideal para nossa aplicação.
 
@@ -36,6 +40,7 @@ O artigo a seguir dispõe de mais informações [Clique Aqui](https://developer.
 
 
 ## **IBM watson**
+
 Para visualizar as aquisições, foi construído um dashboard na plataforma IBM watson com a ferramenta de desenvolvimento Node RED,  que permite o desenvolvimento da interface gráfica por meio de programação visual e javascript.
 
 Além da interface visual essa aplicação permite a integração com um banco de dados em MySQL, onde ficam armazenados todas as aquisições de nossos dados.
